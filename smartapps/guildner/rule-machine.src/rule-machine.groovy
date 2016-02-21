@@ -17,7 +17,7 @@ definition(
 preferences {
     page(name: "mainPage", title: "Rules", install: true, uninstall: true,submitOnChange: true) {
             section {
-                    app(name: "childRules", appName: "Rule", namespace: "bravenel", title: "Create New Rule...", multiple: true)
+                    app(name: "childRules", appName: "Rule", namespace: "guildner", title: "Create New Rule...", multiple: true)
             }
     }
 }
